@@ -18,4 +18,17 @@ export default defineNuxtConfig({
       tailwindcss()
     ],
   },
+
+  app: {
+    head: {
+      title: 'SEKARTAMA OFFICIAL SITE',
+      meta: [
+        { name: 'description', content: 'Situs resmi Sekartama' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+      ],
+      link: [
+        { rel: 'icon', type: 'image/png', href: '/logo.png' }
+      ]
+    }
+  },
 })
